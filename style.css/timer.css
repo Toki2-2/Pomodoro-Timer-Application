@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+
+button {
+    font-family: 'Roboto', sans-serif;
+    color: white; 
+    font-weight: bold; 
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+
+
+button:hover {
+    border: 2px solid black;
+}
+button:nth-of-type(1) {
+    background-color: green;
+}
+button:nth-of-type(2) {
+    background-color: red;
+}
+button:nth-of-type(3) {
+    background-color: yellow;
+}
+
